@@ -16,18 +16,19 @@ The source code is provided in the hope that it will be useful to researchers an
   Used to store results produced by the local reduction method.
   
 ## Scripts
-The entire local reduction method is orchestrated through `1_0_Main.jl`, which sequentially calls all supporting scripts and manages data flow.
+The entire local reduction method is orchestrated through `0_Main.jl`, which sequentially calls all supporting scripts and manages data flow.
 
 ### Julia Scripts
 
-- `1_0_Main.jl` – Executes the full local reduction method.
-- `1_1_Julia_Max.jl` – Maximisation phase NLP + mesh refinement.
-- `1_2_Julia_Min.jl` – Minimisation phase NLP + mesh refinement.
-- `1_3_Julia_EMT.jl` – Calls MATLAB to perform EMT simulations.
-- `1_4_Julia_Plot_series.jl` – Plots time series for both NLP and EMT results.
-- `0_0_Julia_General_calls.jl` – General utility functions and MATLAB-Julia connection interface.
-- `0_1_Julia_ED.jl` – Economic Dispatch (ED) and Automatic Generation Control (AGC) models.
-- `0_2_Julia_Generate_Warmstarts.jl` – Pre-processing step: generates warm-starts for the maximisation phase.
+- `0_Main.jl` – Executes the full local reduction method.
+- `Julia_1_1_Max.jl` – Maximisation phase NLP + mesh refinement.
+- `Julia_1_2_Min.jl` – Minimisation phase NLP + mesh refinement.
+- `Julia_1_3_EMT.jl` – Calls MATLAB to perform EMT simulations.
+- `Julia_1_4_Plot_series.jl` – Plots time series for both NLP and EMT results.
+- `Julia_1_5_Plot_score.jl` – Plots main results of local reduction method.
+- `Julia_0_0_General_calls.jl` – General utility functions and MATLAB-Julia connection interface.
+- `Julia_0_1_ED.jl` – Economic Dispatch (ED) and Automatic Generation Control (AGC) models.
+- `Julia_0_2_Generate_Warmstarts.jl` – Pre-processing step: generates warm-starts for the maximisation phase.
 
 ### Matlab Scripts
 - `Matlab_1_Generate_Case_Params.m` – Reads test system data.
