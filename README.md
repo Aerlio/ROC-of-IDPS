@@ -39,12 +39,21 @@ The entire local reduction method is orchestrated through `0_Main.jl`, which seq
 
 ---
 
+## Solver Requirements
+
+This project uses the [KNITRO](https://www.artelys.com/solvers/knitro/) nonlinear optimization solver for solving large-scale NLPs.  
+> ⚠️ **KNITRO requires a valid license.**  
+Ensure you have a valid KNITRO license installed and configured before running the Julia scripts that invoke the solver.
+
+The connection to KNITRO is handled through the Julia interface to `KNITRO.jl`.
+
+---
+
 ## Citation
 
 We kindly request that any publication using this testbed or implementation explicitly acknowledges this repository by citing the aforementioned paper.
 
 ---
-
 ## Contact
 
 For questions, collaborations, or further information, please contact:
