@@ -1,0 +1,8 @@
+id,y_theta_1,y_theta_2,y_theta_3
+All_GFMs_but_Gen1,1,0,0
+All_GFLs_but_Gen1,0,1,1
+All_GFMs_but_Gen2,0,1,0
+All_GFLs_but_Gen2,1,0,1
+All_GFMs_but_Gen3,0,0,1
+All_GFLs_but_Gen3,1,1,0
+All_GFMs,0,0,0
