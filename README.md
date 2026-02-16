@@ -12,16 +12,6 @@ This code is shared in the hope that it may be useful to researchers and practit
 
 The entire solution method workflow is orchestrated through `Julia_Main.jl`, which sequentially calls all supporting scripts and manages data flow.
 
-### Supplementary Material
-A detailed mathematical specification of the Robust Optimal Control Problem (ROCP) is provided in the supplementary technical manuscript:
-
-> *Supplementary Mathematical Formulation of the ROCP.pdf*
-
-### Folders
-
-- `CSVs/Case9_3IBR/` - Contains the underlying data for the IEEE 9-bus test system studied in the paper.
-- `Generated_Files/`  - Used to store intermediate results throughout the solution method procedure.
- 
 ### Julia Scripts
 
 - `Julia_Main.jl` – Executes the full solution method.
@@ -43,6 +33,15 @@ A detailed mathematical specification of the Robust Optimal Control Problem (ROC
 
 - `Simulation.slx` – Contains the DAE-based dynamic model implementation in Simulink.
 
+### Folders
+
+- `CSVs/Case9_3IBR/` - Contains the underlying data for the IEEE 9-bus test system studied in the paper.
+- `Generated_Files/`  - Used to store intermediate results throughout the solution method procedure.
+ 
+### Supplementary Material
+A detailed mathematical specification of the Robust Optimal Control Problem (ROCP) is provided in the supplementary technical manuscript:
+
+> *Supplementary Mathematical Formulation of the ROCP.pdf*
 
 ---
 
