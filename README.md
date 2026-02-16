@@ -12,6 +12,11 @@ This code is shared in the hope that it may be useful to researchers and practit
 
 The entire solution method workflow is orchestrated through `Julia_Main.jl`, which sequentially calls all supporting scripts and manages data flow.
 
+### Supplementary Mathematical Formulation of the Robust Optimal Control Problem (ROCP)
+A detailed mathematical specification of the ROCP is provided in the supplementary technical manuscript:
+
+> *Supplementary Mathematical Formulation of the ROCP.pdf*
+
 ### Folders
 
 - `CSVs/Case9_3IBR/` - Contains the underlying data for the IEEE 9-bus test system studied in the paper.
