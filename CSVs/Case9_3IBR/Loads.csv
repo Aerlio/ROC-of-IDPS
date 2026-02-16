@@ -1,4 +1,0 @@
-load_i,bus,a_P load,b_P load,c_P load,a_Q load,b_Q load,c_Q load,P_max [pu],P_min [pu],Q_max [pu],Q_min [pu],P_jump_max [pu],Q_jump_max [pu]
-1,5,1,0,0,1,0,0,1.375,0.2,0.55,0.1,0.7,0.25
-2,6,1,0,0,1,0,0,1,0.2,0.33,0.1,0,0
-3,8,1,0,0,1,0,0,1.1,0.2,0.385,0.1,0,0
