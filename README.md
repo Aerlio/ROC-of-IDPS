@@ -8,6 +8,11 @@ This repository contains the implementation used to generate the results present
 The source code is written in Julia and MATLAB/Simulink.
 This code is shared in the hope that it may be useful to researchers and practitioners working on inverter-dominated power systems. It is provided without warranty and is intended primarily for research and academic use.
 
+### Supplementary Material
+A detailed mathematical specification of the Robust Optimal Control Problem (ROCP) is provided in the supplementary technical manuscript:
+
+> *Supplementary Mathematical Formulation of the ROCP.pdf*
+
 ## Repository Structure
 
 The entire solution method workflow is orchestrated through `Julia_Main.jl`, which sequentially calls all supporting scripts and manages data flow.
@@ -38,11 +43,6 @@ The entire solution method workflow is orchestrated through `Julia_Main.jl`, whi
 - `CSVs/Case9_3IBR/` - Contains the underlying data for the IEEE 9-bus test system studied in the paper.
 - `Generated_Files/`  - Used to store intermediate results throughout the solution method procedure.
  
-### Supplementary Material
-A detailed mathematical specification of the Robust Optimal Control Problem (ROCP) is provided in the supplementary technical manuscript:
-
-> *Supplementary Mathematical Formulation of the ROCP.pdf*
-
 ---
 
 ## Solver Requirements
